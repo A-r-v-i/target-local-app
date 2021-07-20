@@ -4,8 +4,6 @@ import { RouteComponentProps } from "react-router-dom";
 interface Props extends RouteComponentProps {}
 
 const RegPortal: React.FC<Props> = ({ history, match }) => {
-  console.log(history);
-  console.log(match);
   return (
     <Fragment>
       <p>Register yourself</p>

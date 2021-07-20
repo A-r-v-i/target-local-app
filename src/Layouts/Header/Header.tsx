@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Logout } from "./Logout";
+import { Logout } from "../Logout";
 
 const Header: React.FC = () => {
   console.log("header");
